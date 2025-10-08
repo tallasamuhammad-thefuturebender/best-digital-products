@@ -1,8 +1,11 @@
+import TrustBadges from '../components/TrustBadges';
+import HeroSection from '../components/HeroSection';
+
 export default function Home() {
   return (
     <main>
-      <h1>Coming Soon - Best Digital Products</h1>
-      <p>Honest reviews of digital tools and software</p>
+      <TrustBadges />
+      <HeroSection />
     </main>
   )
 }
